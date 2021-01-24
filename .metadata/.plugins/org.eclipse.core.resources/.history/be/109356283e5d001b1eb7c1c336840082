@@ -1,0 +1,9 @@
+package com.assignment3;
+
+public class UI {
+	public static void main(String[] args) {
+		BankApplication bank = new BankApplication();
+		bank.addCustomer("adit", "bharuch", 123452323, 12000);
+		bank.displayCustomer(bank);
+	}
+}

@@ -1,0 +1,12 @@
+package com.assignment3;
+
+public class BankApplication extends Customer {
+	public void addCustomer(String name,String address,int accnum,double balance) {
+		setAccnum(accnum);
+		setAddress(address);
+		setBalance(balance);
+		setName(name);
+	}
+	
+	public void deleteCustomer()
+}

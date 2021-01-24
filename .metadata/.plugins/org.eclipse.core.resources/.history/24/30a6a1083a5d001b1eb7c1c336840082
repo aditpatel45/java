@@ -1,0 +1,45 @@
+package com.assignment3;
+
+import java.util.Random;
+
+public class Customer {
+	Random rand = new Random()
+	private int id;
+	private String name;
+	private String address;
+	private int accnum;
+	private double balance;
+	
+	public void setId() {
+		this.id= rand.nextInt(1000);
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public int getAccnum() {
+		return accnum;
+	}
+	public void setAccnum(int accnum) {
+		this.accnum = accnum;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+	@Override
+	public String toString() {
+		return "Customer [name=" + name + ", address=" + address + ", accnum=" + accnum + ", balance=" + balance + "]";
+	}
+	
+}
